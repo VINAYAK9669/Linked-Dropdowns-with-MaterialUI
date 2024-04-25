@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px; /* For Chrome, Safari, and Opera */
+  background: transparent; /* Optional: just to make sure the scrollbar is completely invisible */
+  display: none;
+}
